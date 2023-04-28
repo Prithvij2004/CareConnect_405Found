@@ -7,10 +7,14 @@ ul {
 
 .navbar1 {
     background-color: green;
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar2 {
     background-color: black;
+    display: flex;
+    flex-direction: row;
 }
 
 body {
@@ -38,18 +42,26 @@ li a:hover {
 }
 
 .navbar2options1 {
-    margin-right: 200px;
+    flex: 1;
     margin-left: 50px;
 }
 
 .navbar2options2 {
-    margin-right: 200px;
+    flex: 1;
 }
 
 .navbar2options3 {
-    margin-right: 200px;
+    flex: 1;
 }
 
 .navbar2options4 {
-    margin-right: 200px;
+    flex: 1;
+}
+
+.navbar12 {
+    flex: 1;
+}
+
+.active {
+    flex: 1;
 }
